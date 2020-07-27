@@ -17,9 +17,13 @@ The game initially accepts user inputs to process. Each round, the user has five
 and
 * Quit(Exit) the game. **q** or **quit**
 
-'''
+###### Syntax
+```
 $ r 0 0
-'''
+```
+=> Reveal [0][0] position grid.
+
+
 
 
 ## Seed File
