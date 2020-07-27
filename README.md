@@ -96,6 +96,7 @@ Seed file must have the following format:
 A seed file must be supplied when running this program. 
 A command such as below should be used in the terminal.
 ```
-$ java -cp bin cs1302.game.MinesweeperDriver --seed _relative path of the seed file_
+$ java -cp bin cs1302.game.MinesweeperDriver --seed a/relative/path/of/the/seed/file.txt
 ```
+* Note that the keyword **--seed** must be used along.
 
