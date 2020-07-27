@@ -28,7 +28,8 @@ $ reveal 1 2
 => Reveal position [1][2] grid:
 If the grid **does not** contain a mine, shows the number of mines around the grid.
 If the grid **does** contain a mine, shows the <game over> screen and exit the game.
-
+***
+  
 ```
 $ g 1 2
 ```
@@ -38,6 +39,7 @@ $ guess 1 2
 ```
 => Guess position [1][2] grid as **potentially** containing a mine.:
 Marks _?_ symbol on the grid.
+***
 
 ```
 $ m 1 2
@@ -47,6 +49,7 @@ or
 $ mark 1 2
 ```
 => Marks position [1][2] grid as **definitly** containing a mine.
+***
 
 ```
 $ h
@@ -56,6 +59,7 @@ or
 $ help
 ```
 => Shows the command options.
+***
 
 ```
 $ q
