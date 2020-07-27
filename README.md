@@ -22,9 +22,9 @@ and
 and
 * Quit(Exit) the game. **q** or **quit**
 
-##### Syntax
+### Syntax
 
-##### Reveal a grid
+#### Reveal a grid
 ```
 $ r 1 2
 ```
@@ -36,7 +36,7 @@ If the grid **does not** contain a mine, shows the number of mines around the gr
 If the grid **does** contain a mine, shows the <game over> screen and exit the game.
 ***
   
-##### Mark as 'Potentially' containing a mine.
+#### Mark as 'Potentially' containing a mine.
 ```
 $ g 1 2
 ```
@@ -47,7 +47,7 @@ $ guess 1 2
 Marks _?_ symbol on the grid.
 ***
 
-##### Mark as 'Definitly' containing a mine.
+#### Mark as 'Definitly' containing a mine.
 ```
 $ m 1 2
 ```
@@ -57,7 +57,7 @@ $ mark 1 2
 => Marks position [1][2] grid as **definitly** containing a mine.
 ***
 
-##### List the commands that are available.
+#### List the commands that are available.
 ```
 $ h
 ```
@@ -67,7 +67,7 @@ $ help
 => Shows the command options.
 ***
 
-##### Exit out the game.
+#### Exit out the game.
 ```
 $ q
 ```
