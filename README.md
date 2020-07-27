@@ -36,9 +36,35 @@ or
 ```
 $ guess 1 2
 ```
-=> Guess position [1][2] grid:
+=> Guess position [1][2] grid as **potentially** containing a mine.:
 Marks _?_ symbol on the grid.
 
+```
+$ m 1 2
+```
+or
+```
+$ mark 1 2
+```
+=> Marks position [1][2] grid as **definitly** containing a mine.
+
+```
+$ h
+```
+or
+```
+$ help
+```
+=> Shows the command options.
+
+```
+$ q
+```
+or
+```
+$ quit
+```
+=> Exits the game.
 
 
 ## Seed File
