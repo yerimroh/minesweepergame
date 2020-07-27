@@ -90,5 +90,12 @@ Seed file must have the following format:
 ```
 5 5 3 0 0 1 1 2 2 
 ```
-=> Generates 5x5 grid, place 3 mines in positions: [0][0], [1][1], and [2][2]
+=> Generates **5x5 grid**, place **3 mines** in positions: **[0][0], [1][1]**, and **[2][2]**.
+
+***
+A seed file must be supplied when running this program. 
+A command such as below should be used in the terminal.
+```
+$ java -cp bin cs1302.game.MinesweeperDriver --seed _relative path of the seed file_
+```
 
