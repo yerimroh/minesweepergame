@@ -9,6 +9,8 @@ _Was a cs1302 course project
 ## How to Play
 The game initially accepts user inputs to process. Each round, the user has five different options to put in as command-line input.
 
+The player wins if and only if when **1) all the grids that do not contain a mine are revealed**, and **2) all the grids that do contain a mine are marked as 'definitly' containing a mine.**
+
 #### Valid commands
 * Reveal a square on the grid to see if it contains a mine. => **r** or **reveal**
 * Mark a square on the grid as 'potentially' containing a mine. => **g** or **guess**
