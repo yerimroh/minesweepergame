@@ -26,7 +26,6 @@ and
 ```
 $ r 1 2
 ```
-or
 ```
 $ reveal 1 2
 ```
@@ -38,7 +37,6 @@ If the grid **does** contain a mine, shows the <game over> screen and exit the g
 ```
 $ g 1 2
 ```
-or
 ```
 $ guess 1 2
 ```
@@ -49,7 +47,6 @@ Marks _?_ symbol on the grid.
 ```
 $ m 1 2
 ```
-or
 ```
 $ mark 1 2
 ```
@@ -59,7 +56,6 @@ $ mark 1 2
 ```
 $ h
 ```
-or
 ```
 $ help
 ```
@@ -69,7 +65,6 @@ $ help
 ```
 $ q
 ```
-or
 ```
 $ quit
 ```
