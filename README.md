@@ -17,6 +17,10 @@ The game initially accepts user inputs to process. Each round, the user has five
 and
 * Quit(Exit) the game.
 
+'''
+$ r 0 0
+'''
+
 
 ## Seed File
 
