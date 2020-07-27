@@ -19,10 +19,25 @@ and
 
 ###### Syntax
 ```
-$ r 0 0
+$ r 1 2
 ```
-=> Reveal [0][0] position grid.
+or
+```
+$ reveal 1 2
+```
+=> Reveal position [1][2] grid:
+If the grid **does not** contain a mine, shows the number of mines around the grid.
+If the grid **does** contain a mine, shows the <game over> screen and exit the game.
 
+```
+$ g 1 2
+```
+or
+```
+$ guess 1 2
+```
+=> Guess position [1][2] grid:
+Marks _?_ symbol on the grid.
 
 
 
