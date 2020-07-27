@@ -14,7 +14,7 @@ The player wins if and only if when
 and 
 **2) all the grids that do contain a mine are marked as 'definitly' containing a mine.**
 
-#### Valid commands
+### Valid commands
 * Reveal a square on the grid to see if it contains a mine. => **r** or **reveal**
 * Mark a square on the grid as 'potentially' containing a mine. => **g** or **guess**
 * Maek a square on the grid as 'definitly' containing a mine. => **m** or **mark**
@@ -22,7 +22,9 @@ and
 and
 * Quit(Exit) the game. **q** or **quit**
 
-###### Syntax
+##### Syntax
+
+##### Reveal a grid
 ```
 $ r 1 2
 ```
@@ -34,6 +36,7 @@ If the grid **does not** contain a mine, shows the number of mines around the gr
 If the grid **does** contain a mine, shows the <game over> screen and exit the game.
 ***
   
+##### Mark as 'Potentially' containing a mine.
 ```
 $ g 1 2
 ```
@@ -44,6 +47,7 @@ $ guess 1 2
 Marks _?_ symbol on the grid.
 ***
 
+##### Mark as 'Definitly' containing a mine.
 ```
 $ m 1 2
 ```
@@ -53,6 +57,7 @@ $ mark 1 2
 => Marks position [1][2] grid as **definitly** containing a mine.
 ***
 
+##### List the commands that are available.
 ```
 $ h
 ```
@@ -62,6 +67,7 @@ $ help
 => Shows the command options.
 ***
 
+##### Exit out the game.
 ```
 $ q
 ```
