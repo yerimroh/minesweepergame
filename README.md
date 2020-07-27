@@ -78,4 +78,17 @@ $ quit
 
 
 ## Seed File
+A plain text file in which the program generates the minefield based on.
+
+Seed file must have the following format:
+* First Token: Determines the number of **rows** of the field.
+* Second Token: Determines the number of **columns** of the field.
+* Third Token: Determines the number of **mines**.
+* Subsequent pairs of tokens: Determines the location(coordinations) of each mines.
+
+##### Examples
+```
+5 5 3 0 0 1 1 2 2 
+```
+=> Generates 5x5 grid, place 3 mines in positions: [0][0], [1][1], and [2][2]
 
