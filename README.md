@@ -10,12 +10,12 @@ _Was a cs1302 course project
 The game initially accepts user inputs to process. Each round, the user has five different options to put in as command-line input.
 
 #### Valid commands
-* Reveal a square on the grid to see if it contains a mine.
-* Mark a square on the grid as 'potentially' containing a mine.
-* Maek a square on the grid as 'definitly' containing a mine.
-* Ask for help info.
+* Reveal a square on the grid to see if it contains a mine. => **r** or **reveal**
+* Mark a square on the grid as 'potentially' containing a mine. => **g** or **guess**
+* Maek a square on the grid as 'definitly' containing a mine. => **m** or **mark**
+* Ask for help info. **h** or **help**
 and
-* Quit(Exit) the game.
+* Quit(Exit) the game. **q** or **quit**
 
 '''
 $ r 0 0
